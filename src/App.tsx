@@ -7,6 +7,8 @@ import Navbar from './components/sections/Navbar/Navbar';
 import { Hero } from './components/sections/Hero/Hero';
 import Statistics from './components/sections/Statistics/Statistics';
 import { Mission } from './components/sections/Mission/Mission';
+import Blog from './components/sections/Blog/Blog';
+import { Priorities } from './components/sections/Priorities/Priorities';
 
 const App: React.FC = () => {
   return (
@@ -15,7 +17,9 @@ const App: React.FC = () => {
       <Hero />
       <Mission />
       <Statistics />
+      <Priorities />
       <OursBenefits />
+      <Blog />
       <Faqs faqs={faqs} />
       <Footer email="hello@gym.birlaventures.com" />
     </div>
