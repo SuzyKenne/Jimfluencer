@@ -36,7 +36,7 @@ function FaqsComponent({ faqs }: FaqsInterfaceProps) {
       }}
     >
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-center mb-12 text-white">
+        <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold font-orbitron text-center mb-12 text-white">
           Frequently Asked Questions
         </h2>
 
